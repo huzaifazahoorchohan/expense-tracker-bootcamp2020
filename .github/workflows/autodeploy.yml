@@ -1,4 +1,4 @@
-name: expense-tracker-auto-deploy
+name: expense-tracker-auto-deploy-bootcamp2020
 
 on: [push]
 
