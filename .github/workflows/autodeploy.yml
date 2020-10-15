@@ -40,8 +40,8 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
 
-    - name: Yarn Build
-      run: yarn build
+    - name: npm Build
+      run: npm run build
       
     - name: Deploy React App to Surge
-      run: surge ./build expense-tracker-huzaifa-bootcamp.surge.sh/ --token ${{ secrets.SURGE_KEY }}
+      run: surge ./build expense-tracker-huzaifa-bootcamp.surge.sh/ --token ${{secrets.SURGE_KEY}}
